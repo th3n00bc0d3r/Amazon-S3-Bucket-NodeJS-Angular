@@ -19,8 +19,8 @@ var jwt_secret      = 'yoursecretkeyword';
 
 //Intialize Amazon S3
 const s3 = new AWS.S3({
-    accessKeyId: 'AKIA6JIWYYU4H6WCLO3A',
-    secretAccessKey: 'ZK6b1jpnh/wOHYaXmEam/xJqjENqBZ3t16i/rNKV',
+    accessKeyId: 'your_access_key',
+    secretAccessKey: 'your_secrect',
     region : 'us-east-1',
     signatureVersion: "v4"
 });
